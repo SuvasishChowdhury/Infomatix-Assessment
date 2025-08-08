@@ -42,5 +42,17 @@ namespace ticketapi.Services
             await _db.SaveChangesAsync();
             return true;
         }
+
+        public async Task<List<UserTicketDto>> GetUserTickets()
+        {
+            return await (from t1 in _db.TicketTasks
+                        join t2 in _db.Tickets on t1.TicketId equals t2.Id
+                        join t3 in _db.Users on t1.UserId equals t3.Id
+                        select new UserTicketDto
+                        {
+                            User = t3.Name,
+                            Description = t2.Description
+                        }).ToListAsync();
+        }
     }
 }

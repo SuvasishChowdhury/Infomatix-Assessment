@@ -3,14 +3,12 @@
       <tr>
         <th>User</th>
         <th>Ticket Description</th>
-        <th>Status</th>
       </tr>
     </thead>
     <tbody>
       <tr *ngFor="let ticket of tickets()">
-        <td>{{ ticket.userName }}</td>
+        <td>{{ ticket.user }}</td>
         <td>{{ ticket.description }}</td>
-        <td>{{ ticket.status || 'To Do' }}</td>
       </tr>
     </tbody>
   </table>

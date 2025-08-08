@@ -9,13 +9,12 @@
             public required int UserId { get; init; }
         }
 
-        // TicketDto.cs (for returning ticket info in responses)
-        public record TicketDto
+        // TicketDto.cs (for returning ticket with users)
+        public record UserTicketDto
         {
             public int Id { get; init; }
+            public string? User { get; init; }
             public string? Description { get; init; }
-            public int ProjectId { get; init; }
-            public int UserId { get; init; }
         }
 
         // CreateTicketTaskDto.cs

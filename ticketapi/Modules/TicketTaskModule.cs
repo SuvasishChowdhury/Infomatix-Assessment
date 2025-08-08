@@ -2,6 +2,7 @@
 using ticketapi.Services;
 using static ticketapi.DTOs.DTO;
 using Ticketapi;
+using Ticketapi.Services;
 
 namespace ticketapi.Modules
 {
@@ -28,11 +29,10 @@ namespace ticketapi.Modules
                 return result ? Results.Ok("User assigned to subtask.") : Results.NotFound("Subtask or User not found.");
             });
 
-            // List all assigned tickets (for showing to-do tickets)
-            endpoints.MapGet("v1/tickets/assigned", async (TicketService service) =>
+            // List all assigned tickets for the users
+            endpoints.MapGet("v1/users/tickets", async (TicketTaskService service, TicketDbContext db) =>
             {
-                var tickets = await service.ListAssignedTickets();
-                return Results.Ok(tickets);
+                return Results.Json(await service.GetUserTickets());
             });
         }
     }

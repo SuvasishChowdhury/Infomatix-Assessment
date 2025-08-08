@@ -15,6 +15,6 @@ export class UserTicketTableComponent implements OnInit {
   constructor(private api: ApiService) {}
 
   ngOnInit() {
-    this.api.getAssignedTickets().subscribe(data => this.tickets.set(data));
+    this.api.getUsersAssignedTickets().subscribe(data => this.tickets.set(data));
   }
 }

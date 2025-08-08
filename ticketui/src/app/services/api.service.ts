@@ -22,6 +22,10 @@ export class ApiService {
     return this.http.get<any[]>(`${this.baseUrl}/tickets/assigned`);
   }
 
+  getUsersAssignedTickets(): Observable<any[]>{
+    return this.http.get<any[]>(`${this.baseUrl}/users/tickets`)
+  }
+
   getCounts(): Observable<{ projects: number, tickets: number }> {
     return forkJoin({
       projects: this.getProjects(),
