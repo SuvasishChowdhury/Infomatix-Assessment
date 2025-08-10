@@ -15,14 +15,23 @@ import { RouterModule } from '@angular/router';
 })
 export class UserTicketTableComponent implements OnInit, OnDestroy {
   tickets = signal<any[]>([]);
+  loading = signal(true);
+  error = signal('');
   private dataTable: any;
 
   constructor(private api: ApiService) {}
 
   ngOnInit() {
-    this.api.getUsersAssignedTickets().subscribe(data => {
-      this.tickets.set(data);
-      this.loadDataTable();
+    this.api.getUsersAssignedTickets().subscribe({
+      next: data =>{
+        this.tickets.set(data);
+        this.loading.set(false);
+        this.loadDataTable();
+      },
+      error: err => {
+        this.error.set("Faled to load users.");
+        this.loading.set(false);
+      }
     });
   }
 

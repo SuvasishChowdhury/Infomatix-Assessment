@@ -1,4 +1,6 @@
-<div class="table-container">
+<div *ngIf="loading()">Loading List...</div>
+<div *ngIf="error()">{{ error() }}</div>
+<div class="table-container" *ngIf="!loading() && !error()">
   <h2>Users and Their Assigned Tickets</h2>
   <table id="ticketTable" class="display">
     <thead>

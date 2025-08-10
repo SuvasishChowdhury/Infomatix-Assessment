@@ -26,7 +26,7 @@ export class ProjectUserListComponent implements OnInit {
         this.loadDataTable();
       },
       error: err => {
-        this.error.set('Failed to load projects');
+        this.error.set('Failed to load projects.');
         this.loading.set(false);
       }
     });
