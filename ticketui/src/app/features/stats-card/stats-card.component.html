@@ -1,5 +1,11 @@
-<div class="dashboard-card">
-    <p>Total Projects: {{ totalProjects() }}</p>
-    <p>Total Tickets: {{ totalTickets() }}</p>
+<div class="stats-container">
+  <div class="stat-card stat-projects" tabindex="0">
+    <h3>Total Projects</h3>
+    <p>{{ totalProjects() }}</p>
   </div>
-  
+
+  <div class="stat-card stat-tickets" tabindex="0">
+    <h3>Total Tickets</h3>
+    <p>{{ totalTickets() }}</p>
+  </div>
+</div>

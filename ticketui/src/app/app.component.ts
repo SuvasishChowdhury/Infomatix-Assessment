@@ -4,14 +4,14 @@ import { ProjectUserListComponent } from './features/project-user-list/project-u
 import { StatsCardComponent } from './features/stats-card/stats-card.component';
 import { UserTicketTableComponent } from './features/user-ticket-table/user-ticket-table.component';
 import { HttpClientModule } from '@angular/common/http';
+import { SidebarComponent } from './features/sidebar/sidebar.component';
 
 @Component({
   selector: 'app-root',
   imports: [
     HttpClientModule,
-    ProjectUserListComponent,
+    SidebarComponent,
     StatsCardComponent,
-    UserTicketTableComponent,
     RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'

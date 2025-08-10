@@ -1,15 +1,18 @@
-<table>
+<div class="table-container">
+  <h2>Users and Their Assigned Tickets</h2>
+  <table id="ticketTable" class="display">
     <thead>
       <tr>
         <th>User</th>
-        <th>Ticket Description</th>
+        <th>Ticket</th>
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let ticket of tickets()">
-        <td>{{ ticket.user }}</td>
-        <td>{{ ticket.description }}</td>
+      <tr *ngFor="let t of tickets()">
+        <td>{{ t.user }}</td>
+        <td>{{ t.description }}</td>
       </tr>
     </tbody>
   </table>
-  
+</div>
+<a class="btn btn-primary" routerLink="">Back to Dashboard</a>

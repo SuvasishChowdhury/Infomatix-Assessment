@@ -32,9 +32,13 @@
               }
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "datatables.net-dt/css/dataTables.dataTables.css"
             ],
-            "scripts": []
+            "scripts": [
+              "jquery/dist/jquery.js",
+              "datatables.net/js/dataTables.js"
+            ]
           },
           "configurations": {
             "production": {

@@ -1,11 +1,12 @@
 import { Component, OnInit, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ApiService } from '../../services/api.service';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-stats-card',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterModule],
   templateUrl: './stats-card.component.html',
   styleUrls: ['./stats-card.component.scss']
 })

@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "E:\\Other\\Infomatix\\Infomatix-Assessment\\ticketapi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|e:\\other\\infomatix\\infomatix-assessment\\ticketapi\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|solutionrelative:services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|e:\\other\\infomatix\\infomatix-assessment\\ticketapi\\modules\\projectmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|solutionrelative:modules\\projectmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|e:\\other\\infomatix\\infomatix-assessment\\ticketapi\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|solutionrelative:models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|e:\\other\\infomatix\\infomatix-assessment\\ticketapi\\data\\ticketdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|solutionrelative:data\\ticketdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|e:\\other\\infomatix\\infomatix-assessment\\ticketapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,6 +25,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|e:\\other\\infomatix\\infomatix-assessment\\ticketapi\\services\\tickettaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|solutionrelative:services\\tickettaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|e:\\other\\infomatix\\infomatix-assessment\\ticketapi\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|solutionrelative:services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|e:\\other\\infomatix\\infomatix-assessment\\ticketapi\\modules\\projectmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|solutionrelative:modules\\projectmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|e:\\other\\infomatix\\infomatix-assessment\\ticketapi\\data\\ticketdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|solutionrelative:data\\ticketdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E1160C37-D0C2-9342-FBF2-51D5C20DF02E}|ticketapi.csproj|e:\\other\\infomatix\\infomatix-assessment\\ticketapi\\dtos\\dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,20 +82,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Project.cs",
               "DocumentMoniker": "E:\\Other\\Infomatix\\Infomatix-Assessment\\ticketapi\\Models\\Project.cs",
               "RelativeDocumentMoniker": "Models\\Project.cs",
               "ToolTip": "E:\\Other\\Infomatix\\Infomatix-Assessment\\ticketapi\\Models\\Project.cs",
               "RelativeToolTip": "Models\\Project.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-08T19:26:39.632Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Ticket.cs",
               "DocumentMoniker": "E:\\Other\\Infomatix\\Infomatix-Assessment\\ticketapi\\Models\\Ticket.cs",
               "RelativeDocumentMoniker": "Models\\Ticket.cs",
@@ -119,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "TicketTaskService.cs",
               "DocumentMoniker": "E:\\Other\\Infomatix\\Infomatix-Assessment\\ticketapi\\Services\\TicketTaskService.cs",
               "RelativeDocumentMoniker": "Services\\TicketTaskService.cs",
@@ -143,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "TicketTaskModule.cs",
               "DocumentMoniker": "E:\\Other\\Infomatix\\Infomatix-Assessment\\ticketapi\\Modules\\TicketTaskModule.cs",
               "RelativeDocumentMoniker": "Modules\\TicketTaskModule.cs",
@@ -155,16 +155,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "ProjectService.cs",
               "DocumentMoniker": "E:\\Other\\Infomatix\\Infomatix-Assessment\\ticketapi\\Services\\ProjectService.cs",
               "RelativeDocumentMoniker": "Services\\ProjectService.cs",
               "ToolTip": "E:\\Other\\Infomatix\\Infomatix-Assessment\\ticketapi\\Services\\ProjectService.cs",
               "RelativeToolTip": "Services\\ProjectService.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAUwB8AAAAFAAAAAAAAAA==",
+              "ViewState": "AQIAAAoAAACAMTMzMzMxwB4AAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T10:51:18.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-08T10:51:18.031Z"
             },
             {
               "$type": "Document",
@@ -180,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "TicketTask.cs",
               "DocumentMoniker": "E:\\Other\\Infomatix\\Infomatix-Assessment\\ticketapi\\Models\\TicketTask.cs",
               "RelativeDocumentMoniker": "Models\\TicketTask.cs",
@@ -192,33 +191,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "TicketDbContext.cs",
               "DocumentMoniker": "E:\\Other\\Infomatix\\Infomatix-Assessment\\ticketapi\\Data\\TicketDbContext.cs",
               "RelativeDocumentMoniker": "Data\\TicketDbContext.cs",
               "ToolTip": "E:\\Other\\Infomatix\\Infomatix-Assessment\\ticketapi\\Data\\TicketDbContext.cs",
               "RelativeToolTip": "Data\\TicketDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T16:39:33.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-08T16:39:33.094Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "ProjectModule.cs",
               "DocumentMoniker": "E:\\Other\\Infomatix\\Infomatix-Assessment\\ticketapi\\Modules\\ProjectModule.cs",
               "RelativeDocumentMoniker": "Modules\\ProjectModule.cs",
               "ToolTip": "E:\\Other\\Infomatix\\Infomatix-Assessment\\ticketapi\\Modules\\ProjectModule.cs",
               "RelativeToolTip": "Modules\\ProjectModule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABPAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T10:24:39.621Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-08T10:24:39.621Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "user.cs",
               "DocumentMoniker": "E:\\Other\\Infomatix\\Infomatix-Assessment\\ticketapi\\Models\\user.cs",
               "RelativeDocumentMoniker": "Models\\user.cs",

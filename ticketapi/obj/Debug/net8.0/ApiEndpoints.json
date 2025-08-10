@@ -1,0 +1,217 @@
+[
+  {
+    "ContainingType": "Ticketapi.Modules.WeatherModule\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoints\u003Eb__0_0",
+    "RelativePath": "v1/health",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Ticketapi.Modules.ProjectModule\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoints\u003Eb__0_0",
+    "RelativePath": "v1/projects",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Ticketapi.Modules.ProjectModule\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoints\u003Eb__0_1",
+    "RelativePath": "v1/projects/users",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Ticketapi.Modules.ProjectModule\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoints\u003Eb__0_2",
+    "RelativePath": "v1/projects/{projectId}/assign-user/{userId}",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ticketapi.Modules.TicketModule\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoints\u003Eb__1_0",
+    "RelativePath": "v1/projects/{projectId}/tickets",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "ticketapi.DTOs.DTO\u002BCreateTicketDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ticketapi.Modules.TicketTaskModule\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoints\u003Eb__1_1",
+    "RelativePath": "v1/subtasks/{taskId}/assign-user/{userId}",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taskId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ticketapi.Modules.TicketModule\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoints\u003Eb__1_2",
+    "RelativePath": "v1/tickets/assigned",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ticketapi.Modules.TicketModule\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoints\u003Eb__1_1",
+    "RelativePath": "v1/tickets/{ticketId}/assign-user/{userId}",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ticketId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ticketapi.Modules.TicketTaskModule\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoints\u003Eb__1_0",
+    "RelativePath": "v1/tickets/{ticketId}/subtasks",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ticketId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "ticketapi.DTOs.DTO\u002BCreateTicketTaskDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ticketapi.Modules.TicketTaskModule\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoints\u003Eb__1_2",
+    "RelativePath": "v1/users/tickets",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

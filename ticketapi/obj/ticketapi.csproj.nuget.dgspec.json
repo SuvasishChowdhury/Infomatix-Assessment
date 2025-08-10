@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Project\\My Project\\Infomatix-Assessment\\ticketapi\\ticketapi.csproj": {}
+    "E:\\Other\\Infomatix\\Infomatix-Assessment\\ticketapi\\ticketapi.csproj": {}
   },
   "projects": {
-    "E:\\Project\\My Project\\Infomatix-Assessment\\ticketapi\\ticketapi.csproj": {
+    "E:\\Other\\Infomatix\\Infomatix-Assessment\\ticketapi\\ticketapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Project\\My Project\\Infomatix-Assessment\\ticketapi\\ticketapi.csproj",
+        "projectUniqueName": "E:\\Other\\Infomatix\\Infomatix-Assessment\\ticketapi\\ticketapi.csproj",
         "projectName": "ticketapi",
-        "projectPath": "E:\\Project\\My Project\\Infomatix-Assessment\\ticketapi\\ticketapi.csproj",
-        "packagesPath": "C:\\Users\\bono\\.nuget\\packages\\",
-        "outputPath": "E:\\Project\\My Project\\Infomatix-Assessment\\ticketapi\\obj\\",
+        "projectPath": "E:\\Other\\Infomatix\\Infomatix-Assessment\\ticketapi\\ticketapi.csproj",
+        "packagesPath": "C:\\Users\\suvas\\.nuget\\packages\\",
+        "outputPath": "E:\\Other\\Infomatix\\Infomatix-Assessment\\ticketapi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\bono\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\suvas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -94,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

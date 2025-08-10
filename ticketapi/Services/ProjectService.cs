@@ -33,13 +33,15 @@ public class ProjectService
     public async Task<List<ProjectDto>> GetProjectsAlongWithAssignedUsers(TicketDbContext db)
     {
         return await db.Projects
-        .Include(p => p.Users)
-        .Select(p => new ProjectDto
-        {
-            Name = p.Name,
-            Users = p.Users.Select(u => new UserDto { Name = u.Name }).ToList()
-        })
-        .ToListAsync();
+            .Include(p => p.Users)
+            .Select(p => new ProjectDto
+            {
+                Name = p.Name,
+                Users = p.Users != null
+                    ? p.Users.Select(u => new UserDto { Name = u.Name }).ToList()
+                    : new List<UserDto>()
+            })
+            .ToListAsync();
     }
-    
+
 }

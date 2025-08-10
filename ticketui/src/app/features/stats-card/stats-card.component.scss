@@ -1,0 +1,39 @@
+.stats-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.stat-card {
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 200px;
+  transition: transform 0.2s ease-in-out;
+  color: white;
+
+  h3 {
+    margin: 0;
+    font-size: 1.1rem;
+  }
+
+  p {
+    margin: 0.5rem 0 0;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
+
+.stat-projects {
+  background: #007bff;  /* Blue */
+}
+
+.stat-tickets {
+  background: #28a745;  /* Green */
+}
