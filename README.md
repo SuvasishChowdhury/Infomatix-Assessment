@@ -1,4 +1,4 @@
-# Interview Exercise
+# Interview Exercise:
 
 ## Overview
 This exercise consists of building a **Minimal API Backend** using .NET and a **Angular** front end project. The goal is to focus on **quality, reusability, and scalability** rather than just finishing the tasks.
